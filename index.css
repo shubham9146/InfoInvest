@@ -1,0 +1,33 @@
+.jumbotron{
+    background-color: rgb(39, 33, 26);
+}
+.jumbotron h1{
+    background-image: linear-gradient(90deg, #ffffff 0%, #fffdfb 100%);
+}
+
+body{
+    background-image: linear-gradient(90deg, #fafafa 0%, #f8f8f8 100%);
+}
+img{
+    width: calc(100% - 50px);
+    height: 200px;
+    margin: 10px;
+}
+.NewsGrid{
+    margin: 10px;
+    border: 1px solid lightgrey;
+    padding: 10px;
+
+}
+.container-fluid{
+    width: 90%;
+}
+#loading{
+    background: #000 url(loading.gif) no-repeat center center;
+    background-size: 80%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    
+}
